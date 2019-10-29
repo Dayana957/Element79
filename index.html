@@ -6,105 +6,151 @@
 	<title>Homework</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
-	<link media="all" rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main-style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<h1>Main page heading</h1>
-	<hr>
-	<h2>Users list</h2>
-	<hr>
-	<ol>
-		<li><b>User 01 -</b></li>
-		<ul>
-			<li><b>First name: </b>Brad</li>
-			<li><b>Last name: </b> Pitt</li>
-			<li><b>DOB: </b></li>
-			<li><b>Age: </b>55</li>
-			<li><b>Profession: </b>actor</li>
-			<li><b>Phone: </b><a href="/">(123)-456-7890</a></li>
-			<li><b>Photo: </b><img src="images/foto01.jpg"></li>
-		</ul>
-		<li><b>User 02 +</b></li>
-		<li><b>User 03 +</b></li>
-		<li><b>User 04 +</b></li>
-		<li><b>User 04 +</b></li>
-	</ol>
-	<hr>
-	<h2>Users table</h2>
-	<hr>
-	<table border="1" align="center" width="100%">
-		<tr>
-			<th>User ID:</th>
-			<th>First name:</th>
-			<th>Last name:</th>
-			<th>DOB:</th>
-			<th>Age:</th>
-			<th>Profession:</th>
-			<th>Phone:</th>
-			<th>Photo:</th>
-		</tr>
-		<tr align="center">
-			<td>User 01</td>
-			<td>Brad</td>
-			<td>Pitt</td>
-			<td>December 18, 1963</td>
-			<td>55</td>
-			<td>actor</td>
-			<td><a href="/">(123)-456-7890</a></td>
-			<td><img src="images/foto01.jpg"></td>
-		</tr>
-		<tr align="center">
-			<td>User 02</td>
-			<td>Brad</td>
-			<td>Pitt</td>
-			<td>December 18, 1963</td>
-			<td>55</td>
-			<td>actor</td>
-			<td><a href="/">(123)-456-7890</a></td>
-			<td><img src="images/foto01.jpg"></td>
-		</tr>
-		<tr align="center">
-			<td>User 03</td>
-			<td>Brad</td>
-			<td>Pitt</td>
-			<td>December 18, 1963</td>
-			<td>55</td>
-			<td>actor</td>
-			<td><a href="/">(123)-456-7890</a></td>
-			<td><img src="images/foto01.jpg"></td>
-		</tr>
-		<tr align="center">
-			<td>User 04</td>
-			<td>Brad</td>
-			<td>Pitt</td>
-			<td>December 18, 1963</td>
-			<td>55</td>
-			<td>actor</td>
-			<td><a href="/">(123)-456-7890</a></td>
-			<td><img src="images/foto01.jpg"></td>
-		</tr>
-		<tr align="center">
-			<td>User 05</td>
-			<td>Brad</td>
-			<td>Pitt</td>
-			<td>December 18, 1963</td>
-			<td>55</td>
-			<td>actor</td>
-			<td><a href="/">(123)-456-7890</a></td>
-			<td><img src="images/foto01.jpg"></td>
-		</tr>
-	</table>
-	<hr>
-	<h2 align="center">Users form</h2>
-	<hr>
-	<form>
-		<input type="text" name="firstname" placeholder="First name"><br>
-		<input type="text" name="email" placeholder="Email"><br>
-		<input type="text" name="Phone" placeholder="Phone"><br>
-		<input type="radio" name="q" value="yes" checked> yes
-		<input type="radio" name="q" value="no"> no <br>
-		<input type="checkbox" name="info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.Libero totam, non in suscipit sunt eaque,omnis accusantium eius ut sd ipsum!Esse eaque accusamus soluta totam quas in,similique,ab!<br>
-		<input type="submit" name="submit" value="Submit">
-	</form>
+	<div class="container1">
+		<div class="visual-section"style="background-image: url(images/Layer_1.png);">
+			<header class="header">
+				<div class="logo">
+					<h1 class="exampleTitle">Counsel</h1>
+					<h5 class="example">own your course</h5>
+				</div>
+				<nav class="nav-container">
+					<ul class="main-nav">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Why we best</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<div id="flag">
+					<img src="images/Flag_of_Great_Britain.png">
+				</div>
+				<div class="nav-drop">
+					<nav role="navigation">
+						<ul>
+							<li><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+								<ul class="dropdown">
+									<li><a href="#">Sub-1</a></li>
+		        					<li><a href="#">Sub-2</a></li>
+		        					<li><a href="#">Sub-3</a></li>	
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div id="slider">
+				<div id="rectangle">
+					<div id="rectangle-text">
+						<h2><span>Consumer products consulting</span></h2>
+						<h5><a href="#">Learn more</a></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="fullpage"></div>
+			<div id="screen_2"></div>
+		</div>
+		<div class="fullpage1">
+			<h2 class="content-text">Take away the risk & you can do anythinc</h2>
+			<h5 class="content-text1">Rapid solutions to the most complex business challenges with cooperative process-driven.</h5>
+			<h6 class="content-text2">Integer blandit ultricies aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit ut, elem turpis.Curabitur justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor. Justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor.</h6>
+			<p class="pressing"><a href="#">Take a Tour</a></p>
+		</div>
+		<div id="screen_1" style="background-image: url(images/Rectangle_2.png);">
+			<div class="title">
+					<h2 class="text-element"><b>Constructingthe  best in class global assets.</b></h2>
+					<h5 class="text-element1">Rapid solutions to the most complex business challenges with cooperative process-driven.</h5>
+					<h6 class="text-element2">Integer blandit ultricies aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit ut, elementum turpis.Curabitur justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor.Integer blandit ultricies aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit ut, elementum turpis.Curabitur justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor.Morbi ac eros feugiat, lacinia elit ut, elementum turpis.Curabitur justo sapien, tempus sit amet rutrum eu, commodo eu lacus. nibh. Maecenas ut mi at odio hendrerit eleifend tempor.Integer blandit ultricies Morbi in ligula nibh.</h6>
+					<p class="pressing-0"><a href="#">Take a Tour</a></p>
+			</div>
+			<div class="statist">
+				<img src="images/Statist.png" alt="Statist">
+			</div>
+		</div>
+		<div id="bar">
+			<h3 class="text-title">Looking for a First-Class Business Plan Consultant?</h3>
+			<button class="tab"><a href="#">Contact Now</a></button>
+		</div>
+		<div class="title1">
+			<h2 class="center">Popular Services</h2>
+			<h5 class="center-txt">Rapid solutions to the most complex business challenges with cooperative process-driven.</h5>
+		</div>
+		<div id="main-div">
+			<div class="flex-element">
+				<div class="div-color"></div>
+				<div class="div-text">
+					<h2 class="flex-txt">Turnaround Consulting</h2>
+					<h5 class="flex-txt1">Companies dislike the term ‘turnaround consulting’ because it represents failure. The truth is that turnaround consulting represents success.</h5>
+				</div>
+			</div>
+			<div class="flex-element">
+				<div class="div-color1"></div>
+				<div class="div-text">
+					<h2 class="flex-txt">Bonds & Commodities</h2>
+					<h5 class="flex-txt1">Companies dislike the term ‘turnaround consulting’ because it represents failure. The truth is that turnaround consulting represents success.</h5>
+				</div>
+			</div>
+			<div class="flex-element">
+				<div class="div-color2"></div>
+				<div class="div-text">
+					<h2 class="flex-txt">Audit & Assurance</h2>
+					<h5 class="flex-txt1">Companies dislike the term ‘turnaround consulting’ because it represents failure. The truth is that turnaround consulting represents success.</h5>
+				</div>
+			</div>
+		</div>
+		<div id="field-numbers">
+			<h1></h1>
+		</div>
+		<div class="cont-img">
+			<div class="images-style"></div>
+			<div id="images-style2"></div>
+		</div>
+		<div class="descrip">
+			<h2 class="des-text0">Why  we best Consulting office in london ?</h2>
+			<h5 class="des-text1">Rapid solutions to the most complex business challenges with cooperative process-driven.</h5>
+			<h6 class="des-text2">Integer blandit ultricies aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit ut, elem turpis.Curabitur justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor.justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor.</h6>
+			<p class="pressing-1"><a href="#">Take a Tour</a></p>
+		</div>
+		<div class="rectangle">
+			<h1 class="sign">“</h1>
+			<blockquote class="lorem-ipsum">
+				<p>Lorem ipsum dolor sit amet, 	consectetur adipisicing elit
+				Seddo eiusmod tempor incididunt ut labore Standard Dummy aliqua. Utenim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut Unknown Printer The Commodo consequat. Duis aute irure dolor.
+				Voluptate velit esse cillum dolore eu fugiat nullapariatur.</p>
+			</blockquote>
+		</div>
+			<div class="title1">
+			<h2 class="center">Contact with us</h2>
+			<h5 class="center-txt">Rapid solutions to the most complex business challenges with cooperative process-driven.</h5>
+			</div>
+		<div class="layer_1">
+			<div class="lay-images">
+				<img class="maps0" src="images/Layer_3@3x.png" alt="To home page">
+				<p id="indication"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
+				<p class="title-fu">Position</p>
+				<p>Lorem ipsum dolor sit amet,consectetur adipisicing elit. Neque molestias...</p>
+				<p><b>Date of brith: 08.10</b></p>
+		</div>
+			<div class="lay-images">
+				<img class="maps0" src="images/Layer_3@3x.png" alt="To home page">
+				<p id="indication"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
+				<p class="title-fu">Position</p>
+				<p>Lorem ipsum dolor sit amet,consectetur adipisicing elit. Neque molestias...</p>
+				<p><b>Date of brith: 08.10</b></p>
+		</div>
+			<div class="lay-images">
+				<img class="maps0" src="images/Layer_3@3x.png" alt="To home page">
+				<p id="indication"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
+				<p class="title-fu">Position</p>
+				<p>Lorem ipsum dolor sit amet,consectetur adipisicing elit. Neque molestias...</p>
+				<p><b>Date of brith: 08.10</b></p>
+		</div>
+	</div>
 </body>
-</html>
